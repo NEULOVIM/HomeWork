@@ -11,7 +11,7 @@ public class Task2 {
         int a = sc.nextInt();
         int sum = 1;
 
-        for (int i = 1; i < a; i++){
+        for (int i = 2; i <= a; i++){
             sum = sum + i;
             System.out.println(sum);
             System.out.println("------");

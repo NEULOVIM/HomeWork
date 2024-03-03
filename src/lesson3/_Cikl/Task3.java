@@ -6,14 +6,9 @@ public class Task3 {
         int g = 7;
         while (g <= 99) {
             System.out.println(g);
-            g ++;
-            g ++;
-            g ++;
-            g ++;
-            g ++;
-            g ++;
-            g ++;
-// у меня не хочит работать при g + 7;
+            g = g + 7;
+
+// java бывает выдаёт!!
         }
     }
 }

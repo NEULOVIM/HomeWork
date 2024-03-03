@@ -27,6 +27,7 @@ public class Task1_5 {
                 break;
             case "6":
                 System.out.println("Синий");
+                break;
             case "7":
                 System.out.println("Фиолетовый");
                 break;
