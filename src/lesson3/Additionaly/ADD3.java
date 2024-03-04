@@ -8,6 +8,7 @@ public class ADD3 {
             for (int b = 1; b <= 10; b++) {
                 System.out.print(a * b + "  ");
 
+
             }
         }
     }
