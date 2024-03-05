@@ -9,17 +9,19 @@ public class ADD2 {
         System.out.println("Введите сумму вклада");
         float sum = sc.nextFloat();
 
-        float b = (sum * 7 / 100) + sum;    // число c %, за 1 месяц.
-
         System.out.println("Введите количество месяцев");
-        int m = sc.nextInt();
+        float math = sc.nextInt();
 
 
-        for (int i = 1; i <= m; i++) {
-            float finish =  b * i;
-            System.out.println(finish);
+        float sumFinish = (sum * 7 / 100) + sum;    // число + %, за 1 месяц.
+
+        int i = 0;
+        for (; i < math; i++)
+        {
         }
+        float finish = sumFinish * i;
+        System.out.println(finish);
 
-
+//        Почему постоянно умножает? Почему сначала цикл не отработает а потом не прочтёт что за циклом?
     }
 }
