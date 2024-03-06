@@ -13,15 +13,16 @@ public class ADD2 {
         float math = sc.nextInt();
 
 
-        float sumFinish = (sum * 7 / 100) + sum;    // число + %, за 1 месяц.
+        float sumFinish = (sum * 7 / 100);    // число + %, за 1 месяц.
 
         int i = 0;
         for (; i < math; i++)
         {
         }
-        float finish = sumFinish * i;
+
+        float finish = sumFinish * i + sum;
         System.out.println(finish);
 
-//        Почему постоянно умножает? Почему сначала цикл не отработает а потом не прочтёт что за циклом?
+//        Почему сначала цикл не отработает а потом не прочтёт то что за циклом?
     }
 }
