@@ -10,19 +10,19 @@ public class ADD2 {
         float sum = sc.nextFloat();
 
         System.out.println("Введите количество месяцев");
-        float math = sc.nextInt();
+        float math = sc.nextFloat();
 
 
-        float sumFinish = (sum * 7 / 100);    // число + %, за 1 месяц.
+        float enterest = (sum * 7 / 100);
 
-        int i = 0;
-        for (; i < math; i++)
+
+
+
+        for (int i = 1; i <= math; i++)
         {
+         float finish = enterest * i + sum;
+            System.out.println(finish);
         }
 
-        float finish = sumFinish * i + sum;
-        System.out.println(finish);
-
-//        Почему сначала цикл не отработает а потом не прочтёт то что за циклом?
     }
 }
