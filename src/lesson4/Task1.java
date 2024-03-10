@@ -12,12 +12,11 @@ public class Task1 {
         System.out.println("Enter an integer array elements: ");
         if (sc.hasNextInt()) {
             System.out.println("You rate! ");
-            array[0] = sc.nextInt();
-            array[1] = sc.nextInt();
-            array[2] = sc.nextInt();
-            array[3] = sc.nextInt();
-            array[4] = sc.nextInt();
 
+
+            for (int i = 0; i < array.length; i++) {
+                array[i] = sc.nextInt();
+            }
         } else {
             System.out.println("Error. It is non integer!");
 
