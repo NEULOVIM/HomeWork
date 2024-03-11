@@ -7,7 +7,7 @@ public class Task3 {
 
         Scanner sc = new Scanner(System.in);
 
-        double array[] = new double[sc.nextInt()];
+        double[] array = new double[sc.nextInt()];
 
 
         for (int i = 0; i < array.length; i++) {
@@ -18,19 +18,21 @@ public class Task3 {
 
         double max = array[0];
         double min = array[0];
-        double midl = 0;
+        double sum = 0;
 
         for (int i = 0; i < array.length; i++) {
             if (max < array[i])
                 max = array[i];
             if (min > array[i])
                 min = array[i];
-            midl += array[i] / array.length;
+
+            sum += array[i];
         }
+
         System.out.println(" ");
         System.out.println("Maximum: " + max);
         System.out.println("Minn: " + min);
-        System.out.println("Midl: " + midl);
+        System.out.println("Midl: " + sum / array.length);
     }
 }
 
