@@ -23,16 +23,19 @@ public class Task4 {
 
 
 
-        double midl1 = 0;
-        double midl2 = 0;
+        double midl1 = 0.0;
+        double midl2 = 0.0;
 
         for (int q = 0; q < array.length; q++) {
-            midl1 += (double) array[q] / array.length;
+            midl1 += array[q];
         }
+        midl1 /=  array.length;
+
 
         for (int q = 0; q < array2.length; q++) {
-            midl2 += (double) array2[q] / array2.length;
+            midl2 += array2[q];
         }
+        midl2 /= array2.length;
 
 
         System.out.println("Midl 1: " + midl1);
