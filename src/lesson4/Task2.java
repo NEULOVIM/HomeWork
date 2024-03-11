@@ -9,11 +9,11 @@ public class Task2 {
 
         Scanner sc = new Scanner(System.in);
         Random r = new Random();
-        int array[] = new int[10];
+        int[] array = new int[10];
 
 
-        int i = 0;
-        for (; i < array.length; i++) {
+
+        for ( int i = 0; i < array.length; i++) {
             array[i] = r.nextInt(10);
         }
         int a = 0;
@@ -21,8 +21,6 @@ public class Task2 {
             System.out.print(array[a] + " ");
         }
         System.out.println(" ");
-
-
 
 
         System.out.println("Enter an integer array element: ");
@@ -35,23 +33,16 @@ public class Task2 {
         int num = sc.nextInt();
 
 
-//        if (num == array[i]) {
-//            System.out.println("OK");
-//        } else {
-//            System.out.println("now OK");
-//        }
-
-
         int j = 0;
         for (; j < array.length; j++) {
 
             if (array[j] == num) {
                 continue;
             }
-            System.out.println(array[j] + " ");
+            System.out.print(array[j] + " ");
         }
 
-
+//  I don't know what you mean. Wot is it populate a new array?
     }
 }
 
