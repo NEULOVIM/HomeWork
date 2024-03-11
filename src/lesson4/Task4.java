@@ -1,7 +1,7 @@
 package lesson4;
 
 import java.util.Random;
-import java.util.Scanner;
+
 
 public class Task4 {
     public static void main(String[] args) {
@@ -14,20 +14,17 @@ public class Task4 {
         int i = 0;
         for (; i < array.length; i++) {
             array[i] = r.nextInt(10);
+            array2[i] = r.nextInt(10);
+
             System.out.print(array[i] + " ");
+            System.out.print(array2[i] + " ");
         }
         System.out.println("  ");
 
-        int j = 0;
-        for (; j < array2.length; j++) {
-            array2[j] = r.nextInt(10);
-            System.out.print(array2[j] + " ");
-        }
-        System.out.println("  ");
+
 
         double midl1 = 0;
         double midl2 = 0;
-
 
         for (int q = 0; q < array.length; q++) {
             midl1 += (double) array[q] / array.length;
