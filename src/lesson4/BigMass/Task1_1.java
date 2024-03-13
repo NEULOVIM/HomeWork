@@ -6,8 +6,6 @@ public class Task1_1 {
 
         for (int i = 0; i < mass.length; i++) {
             for (int j = 0; j < mass.length; j++) {
-                mass[i][j] = "W";
-                mass[i][j] = "B";
 
                 if ((i + j) % 2 == 0) {
                     mass[i][j] = "W";
