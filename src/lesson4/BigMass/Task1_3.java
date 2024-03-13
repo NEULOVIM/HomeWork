@@ -14,9 +14,9 @@ public class Task1_3 {
         int m = sc.nextInt();
         int[][] mass = new int[n][m];
 
-        for (int i = 0; i < mass.length; i++) {
+        for (int i = 0; i < n; i++) {
             System.out.println();
-            for (int j = 0; j < mass.length; j++) {
+            for (int j = 0; j < m; j++) {
                 mass[i][j] = r.nextInt(100);
                 System.out.print(mass[i][j] + " ");
             }
@@ -30,7 +30,7 @@ public class Task1_3 {
         System.out.println();
 
         for (int i = 0; i < mass.length; i++) {
-            System.out.print(mass[i][mass.length - 1 - i] + " ");
+            System.out.print(mass[i][m - 1 - i] + " ");
         }
 
     }
