@@ -37,7 +37,7 @@ public class Task2 {
             System.out.println("This number not have");
         } else {
             int[] array2 = new int[array.length - count];
-            ///////////////////////////////////////////////
+            //////////////////////////////////////////////
 
 
             int index = 0;
