@@ -25,12 +25,8 @@ public class Task1_3 {
 
 
         for (int i = 0; i < mass.length; i++) {
-            System.out.print(mass[i][i] + " ");
-        }
-        System.out.println();
+            System.out.print(mass[i][i] + " \t \t " + mass[i][m - 1 - i] + "\n");
 
-        for (int i = 0; i < mass.length; i++) {
-            System.out.print(mass[i][m - 1 - i] + " ");
         }
 
     }
