@@ -25,6 +25,6 @@ public class Computer {
         System.out.println("Computer: \n" + "Price: " + price + " \t " + "Model: " + model);
         ram.infoRAM();
         hdd.infoHDD();
-
     }
+
 }

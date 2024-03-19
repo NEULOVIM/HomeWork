@@ -15,4 +15,5 @@ public class TestComputer {
         Computer computer2 = new Computer(1000, "HP",ram,hdd);
         computer2.infoComputer();
     }
+
 }

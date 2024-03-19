@@ -4,9 +4,9 @@ public class RAM {
    private String name;
    private int memory;
 
+
     public RAM() {
     }
-
 
     public RAM(String name, int memory) {
         this.name = name;

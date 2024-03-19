@@ -18,5 +18,4 @@ public class HDD {
         System.out.println("HDD:  " + "Name: " + name + " \t " + "Memory: " + memory + "\t" + "Type: " + type);
     }
 
-
 }
