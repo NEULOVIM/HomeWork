@@ -1,9 +1,9 @@
 package ADDlesson6;
 
 public class HDD {
-    String name;
-    int memory;
-    String type;
+   private String name;
+   private int memory;
+   private String type;
 
     public HDD() {
     }

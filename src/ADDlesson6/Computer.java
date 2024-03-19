@@ -1,10 +1,10 @@
 package ADDlesson6;
 
 public class Computer {
-    int price;
-    String model;
-    RAM ram;
-    HDD hdd;
+  private final int price;
+   private final String model;
+   private final RAM ram;
+   private final HDD hdd;
 
 
     public Computer(int price, String model) {

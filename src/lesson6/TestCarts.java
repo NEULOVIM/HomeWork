@@ -20,5 +20,7 @@ public class TestCarts {
         cart3.minusSum(500);
         cart3.info();
 
+
+
     }
 }
