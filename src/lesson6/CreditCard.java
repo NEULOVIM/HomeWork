@@ -16,15 +16,21 @@ public class CreditCard {
 
     }
 
-    public void minusSum(double sum) {
-        balance -= sum;
+    public  double minusSum(double sum) {
+        if (sum > balance) {
+            System.out.println("Error. \n Sum more then balance");
+            return 0;
+        } else {
+            balance -= sum;
+            return sum;
+        }
+
     }
 
+        public void info () {
+            System.out.println("Account Number: " + accountNumber + " \n " + "Balance: " + balance);
+        }
 
-    public void info() {
-        System.out.println("Account Number: " + accountNumber + " \n " + "Balance: " + balance);
+
     }
-
-
-}
 
