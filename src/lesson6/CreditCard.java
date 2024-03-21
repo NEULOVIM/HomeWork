@@ -21,13 +21,12 @@ public class CreditCard {
         } else {
             balance -= sum;
         }
-
     }
 
-        public void info () {
-            System.out.println("Account Number: " + accountNumber + " \n " + "Balance: " + balance);
-        }
-
-
+    public void info() {
+        System.out.println("Account Number: " + accountNumber + " \n " + "Balance: " + balance);
     }
+
+
+}
 
