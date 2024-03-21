@@ -1,9 +1,8 @@
 package ADDlesson6;
 
 public class RAM {
-   private String name;
-   private int memory;
-
+    private String name;
+    private int memory;
 
     public RAM() {
     }
