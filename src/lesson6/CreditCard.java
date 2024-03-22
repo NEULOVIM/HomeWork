@@ -15,12 +15,13 @@ public class CreditCard {
         balance += sum;
     }
 
-    public void minusSum(double sum) {
+    public double minusSum(double sum) {
         if (sum > balance) {
             System.out.println("Error. \n Sum more then balance");
         } else {
             balance -= sum;
         }
+        return balance;
     }
 
     public void info() {
